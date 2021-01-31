@@ -74,7 +74,7 @@ class MiBand extends EventEmitter {
     this.char = {}
 
     // TODO: this is constant for now, but should random and managed per-device
-    this.key = new Buffer('30313233343536373839404142434445', 'hex');
+    this.key = new Buffer('124862876f120739d4b86df363dabdd0', 'hex');
     this.textDec = new TextDecoder();
   }
 
